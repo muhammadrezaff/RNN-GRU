@@ -321,7 +321,7 @@ elif selected_main == "Introduction":
             st.markdown("<p style='text-align: justify; font-size: 25px;'>Keunggulan ANN dibandingkan metode prediksi lainnya terletak pada kemampuannya untuk menerapkan berbagai algoritma guna meminimalkan kesalahan dan menghasilkan nilai prediksi yang mendekati kondisi aktual. Secara sederhana, ANN merupakan alat pemodelan data statistik nonlinier yang dapat memodelkan hubungan kompleks antara input dan output sekaligus mengidentifikasi pola dalam data. Dalam bentuk paling dasar, ANN mampu menangani data dalam jumlah besar (big data) dan mengidentifikasi pola-pola tertentu dari data tersebut.</p>", unsafe_allow_html=True)
             col1, col2, col3 = st.columns([1, 2, 1])
             with col2:
-                st.image("C:/Users/Muhammad Reza/Downloads/Arsitektur ANN.png", caption="Arsitektur Artificial Neural Network (ANN)", width=600)
+                st.image("Arsitektur ANN.png", caption="Arsitektur Artificial Neural Network (ANN)", width=600)
         elif sub_bab2 == "Recurrent Neural Network (RNN)":
             st.subheader("Recurrent Neural Network (RNN)")
             st.markdown("<p style='text-align: justify; font-size: 25px;'>Recurrent Neural Network (RNN) merupakan sejenis jaringan syaraf tiruan yang dapat memproses bahasa alami, prediksi time series dan melihat korelasi tersembunyi pada aplikasi pengenalan suara pada suatu data. Pada umumnya neural network memiliki anggapan bahwa input dan output pada suatu data saling bebas. Untuk menyelesaikan masalah pemodelan urutan RNN baik digunakan, karena RNN memiliki koneksi yang berulang dan jejak informasi sebelumnya dan informasi input. RNN umumnya diterapkan untuk mengatasi permasalahan yang melibatkan data deret waktu, dirancang untuk memproses data yang berurutan atau bersambung dan merupakan variasi dari Artificial Neural Network.</p>", unsafe_allow_html=True)
@@ -333,21 +333,21 @@ elif selected_main == "Introduction":
             st.markdown("<p style='text-align: justify; font-size: 25px;'>Recurrent Neural Network (RNN) merupakan algoritma yang digunakan untuk data sekuensial, RNN terus berkembang dan banyak modifikasi untuk menyempurnakannya. Cara kerja RNN adalah dengan memproses input yang diberikan dengan berbagai informasi yang pernah diperoleh sebelumnya. RNN tidak hanya menjalankan proses secara linear namun juga terjadi perulangan yang membentuk siklus pada arsitektur RNN pada setiap neuron dan layer.</p>", unsafe_allow_html=True)
             col1, col2, col3 = st.columns([1, 2, 1])
             with col2:
-                st.image("C:/Users/Muhammad Reza/Downloads/Gambar HD/Struktur RNN.jpg", caption="Struktur Reccurent Neural Network", width=500)
+                st.image("Struktur RNN.jpg", caption="Struktur Reccurent Neural Network", width=500)
             col1, col2, col3 = st.columns([1, 2, 1])
             with col2:
-                st.image("C:/Users/Muhammad Reza/Downloads/Gambar HD/Rumus RNN.jpg",  width=400)
-            st.image("C:/Users/Muhammad Reza/Downloads/Gambar HD/Ket Rumus RNN.jpg",  width=300)
+                st.image("Rumus RNN.jpg",  width=400)
+            st.image("Ket Rumus RNN.jpg",  width=300)
         elif sub_bab2 == "Gated Recurrent Unit (GRU)":
             st.subheader("Gated Recurrent Unit (GRU)")
             st.markdown("<p style='text-align: justify; font-size: 25px;'>Gated Recurrent Unit (GRU) adalah metode yang diperkenalkan oleh Kyunghun Cho dan teman-temannya, yang merupakan varian dari Recurrent Neural Network (RNN). Metode ini memungkinkan setiap unit recurrent untuk secara adaptif menangkap dependensi pada berbagai skala waktu. GRU dikembangkan untuk mengatasi masalah vanishing gradient yang sering ditemui pada RNN. Dibandingkan dengan varian lain dari RNN, seperti Long Short-Term Memory (LSTM), GRU memiliki arsitektur yang lebih sederhana karena hanya memiliki dua pintu, yaitu update gate dan reset gate.</p>", unsafe_allow_html=True)
             col1, col2, col3 = st.columns([1, 2, 1])
             with col2:
-                st.image("C:/Users/Muhammad Reza/Downloads/Gambar HD/Struktur GRU.jpg", caption="Struktur Gated Recurrent Unit", width=500)
+                st.image("Struktur GRU.jpg", caption="Struktur Gated Recurrent Unit", width=500)
             col1, col2, col3 = st.columns([1, 2, 1])
             with col2:
-                st.image("C:/Users/Muhammad Reza/Downloads/Gambar HD/Rumus GRU.jpg",  width=500)
-            st.image("C:/Users/Muhammad Reza/Downloads/Keterangan Rumus GRU.png",  width=400)
+                st.image("Rumus GRU.jpg",  width=500)
+            st.image("Keterangan Rumus GRU.png",  width=400)
         
         elif sub_bab2 == "Hyperparameter":
             st.subheader("Hyperparameter")
@@ -365,11 +365,11 @@ elif selected_main == "Introduction":
                 st.markdown("<p style='text-align: justify; font-size: 25px;'>Candidate hidden state merupakan penggabungan informasi dari hidden state sebelumnya dengan input yang ada.</p>", unsafe_allow_html=True)
                 col1, col2, col3 = st.columns([1, 2, 1])
                 with col2:
-                    st.image("C:/Users/Muhammad Reza/Downloads/Gambar HD/Candidate Hidden State.jpg", caption="(a) struktur candidate hidden state pertama (b) Struktur candidate hidden state kedua", width=700)
+                    st.image("Candidate Hidden State.jpg", caption="(a) struktur candidate hidden state pertama (b) Struktur candidate hidden state kedua", width=700)
             elif sub_hyperparameter == "Final Hidden State":
                 st.subheader("Final Hidden State")
                 st.markdown("<p style='text-align: justify; font-size: 25px;'>Final hidden state merupakan output yang akan diteruskan pada timestep berikutnya.</p>", unsafe_allow_html=True)
-                st.image("C:/Users/Muhammad Reza/Downloads/Gambar HD/Final Hidden State.jpg", caption="(a) Struktur final hidden state pertama (b) Struktur final hidden state kedua (c) Struktur final hidden state ketiga", width=900)
+                st.image("Final Hidden State.jpg", caption="(a) Struktur final hidden state pertama (b) Struktur final hidden state kedua (c) Struktur final hidden state ketiga", width=900)
             elif sub_hyperparameter == "Batch Size":
                 st.subheader("Batch Size")
                 st.markdown("<p style='text-align: justify; font-size: 25px;'>Batch size adalah jumlah kelompok data sampel yang digunakan dalam pelatihan model. Sampel-sampel tersebut akan diproses oleh model agar dapat memahami, mengingat, dan mempelajari pola data melalui proses iterasi. Batch size mengacu pada jumlah sampel yang akan diproses dalam satu iterasi. Setiap kali model memproses data sebanyak ukuran batch yang ditentukan, parameter model akan diperbarui berdasarkan hasil yang diperoleh dari proses tersebut. Namun, memilih ukuran batch yang tepat memerlukan pertimbangan yang matang, karena ukuran batch yang terlalu kecil dapat memperlambat konvergensi model, sementara ukuran batch yang terlalu besar berisiko membuat model kurang adaptif terhadap variasi data. Oleh karena itu, pemilihan ukuran batch perlu disesuaikan dengan karakteristik data, kapasitas perangkat keras, dan tujuan pelatihan.</p>", unsafe_allow_html=True)
@@ -381,8 +381,8 @@ elif selected_main == "Introduction":
                 st.markdown("<p style='text-align: justify; font-size: 25px;'>Optimizer merupakan algoritma atau metode dalam kecerdasan buatan yang berperan penting dalam menyesuaikan parameter seperti bobot dan bias, dengan tujuan mengurangi fungsi kerugian atau meningkatkan efisiensi produksi, sehingga memfasilitasi perubahan nilai bobot dan penyesuaian laju pembelajaran dalam jaringan saraf agar kerugian dapat diminimalkan. Oleh karena itu, pemilihan optimizer yang tepat dapat memberikan dampak signifikan terhadap akurasi dan efisiensi model. Pada penelitian ini menggunakan Adaptive Moment Estimation (ADAM) yaitu menghitung estimasi pertama (mean) dan kedua (uncentered variance) dari gradien, dan menggunakan kedua estimasi tersebut untuk mengatur learning rate untuk setiap parameter. Rumusnya meliputi:</p>", unsafe_allow_html=True)
                 col1, col2, col3 = st.columns([1, 2, 1])
                 with col2:
-                    st.image("C:/Users/Muhammad Reza/Downloads/Gambar HD/Rumus ADAM.jpg",  width=500)
-                st.image("C:/Users/Muhammad Reza/Downloads/Gambar HD/Ket Rumus ADAM.jpg",  width=700)
+                    st.image("Rumus ADAM.jpg",  width=500)
+                st.image("Ket Rumus ADAM.jpg",  width=700)
             elif sub_hyperparameter == "Drop Out":
                 st.subheader("Drop Out")
                 st.markdown("<p style='text-align: justify; font-size: 25px;'>Drop out merupakan teknik regularisasi untuk menurunkan overfitting pada neural network yang menghalangi ko-adaptasi kompleks pada data latih. Dalam dropout layer dilakukan proses dropout yaitu menghilangkan koneksi secara acak pada unit neural network pada proses pelatihan.</p>", unsafe_allow_html=True)
@@ -399,22 +399,22 @@ elif selected_main == "Introduction":
                 st.markdown("<p style='text-align: justify; font-size: 25px;'>Fungsi aktivasi sigmoid merupakan fungsi matematika yang memiliki bentuk kurva S, berperan untuk mengubah nilai menjadi rentang antara 0 hingga 1. Fungsi ini juga dikenal sebagai kurva logistik atau fungsi logistik. Fungsi ini merupakan salah satu jenis fungsi aktivasi non-linear yang paling umum digunakan.</p>", unsafe_allow_html=True)
                 col1, col2, col3 = st.columns([1, 2, 1])
                 with col2:
-                    st.image("C:/Users/Muhammad Reza/Downloads/Gambar HD/Rumus Sigmoid.jpg",  width=300)
-                st.image("C:/Users/Muhammad Reza/Downloads/Gambar HD/Ket Rumus Sigmoid.jpg",  width=600)
+                    st.image("Rumus Sigmoid.jpg",  width=300)
+                st.image("Ket Rumus Sigmoid.jpg",  width=600)
                 st.markdown("<p style='text-align: justify; font-size: 25px;'>b. Fungsi AKtivasi Tanh</p>", unsafe_allow_html=True)
                 st.markdown("<p style='text-align: justify; font-size: 25px;'>Fungsi aktivasi Tanh, atau Tangens Hiperbolik, merupakan salah satu fungsi aktivasi yang sering digunakan dan cukup populer dalam deep learning. Fungsi ini mengubah nilai masukan ke dalam rentang antara -1 hingga 1.</p>", unsafe_allow_html=True)
                 col1, col2, col3 = st.columns([1, 2, 1])
                 with col2:
-                    st.image("C:/Users/Muhammad Reza/Downloads/Gambar HD/Rumus Tanh.jpg",  width=300)
-                st.image("C:/Users/Muhammad Reza/Downloads/Gambar HD/Ket Rumus Tanh.jpg",  width=600)
+                    st.image("Rumus Tanh.jpg",  width=300)
+                st.image("Ket Rumus Tanh.jpg",  width=600)
 
         elif sub_bab2 == "Normalisasi Data":
             st.subheader("Normalisasi Data")
             st.markdown("<p style='text-align: justify; font-size: 25px;'>Normalisasi data adalah proses konversi skala atribut data sehingga data berada pada rentang tertentu. Pada penelitian ini, normalisasi dilakukan dengan metode Min Max Scaling. Data observasi dikurangi nilai terkecil dari data observasi yang kemudian hasil dari pengurangan tersebut dibagi dengan hasil pengurangan dari nilai terbesar terhadap nilai terkecil data observasi sehingga data berada pada interval 0 hingga 1. Tujuan dari dilakukannya normalisasi adalah untuk menyamakan fitur nilai setiap data observasi dan meminimalisir error.</p>", unsafe_allow_html=True)
             col1, col2, col3 = st.columns([1, 2, 1])
             with col2:
-                st.image("C:/Users/Muhammad Reza/Downloads/Gambar HD/Rumus Normalisasi.jpg",  width=400)
-            st.image("C:/Users/Muhammad Reza/Downloads/Gambar HD/Ket Rumus Normalisasi.jpg",  width=800)
+                st.image("Rumus Normalisasi.jpg",  width=400)
+            st.image("Ket Rumus Normalisasi.jpg",  width=800)
         elif sub_bab2 == "Evaluasi Model":
             st.subheader("Evaluasi Model")
             st.markdown("<p style='text-align: justify; font-size: 25px;'>Model yang telah bentuk dievaluasi untuk mengukur performa model apakah model yang dihasilkan sudah cukup baik atau memiliki performa yang kurang baik. Performa model yang baik memiliki ukuran kesalahan yang paling kecil pada tahap training dan testing.</p>", unsafe_allow_html=True)
@@ -429,36 +429,36 @@ elif selected_main == "Introduction":
                 st.markdown("<p style='text-align: justify; font-size: 25px;'>Mean Absolute Percentage Error (MAPE) adalah salah satu ukuran keakuratan yang paling populer dan sering dijadikan standar utama dalam berbagai kompetisi. Suatu model dianggap sangat baik jika nilai MAPE-nya berada di bawah 10%, dan dinilai baik jika nilai MAPE berada dalam rentang 10% hingga 20%.</p>", unsafe_allow_html=True)
                 col1, col2, col3 = st.columns([1, 2, 1])
                 with col2:
-                    st.image("C:/Users/Muhammad Reza/Downloads/Gambar HD/Rumus MAPE.jpg",  width=400)
-                st.image("C:/Users/Muhammad Reza/Downloads/Gambar HD/Ket Rumus MAPE.jpg",  width=600)
+                    st.image("Rumus MAPE.jpg",  width=400)
+                st.image("Ket Rumus MAPE.jpg",  width=600)
             elif sub_evaluasimodel == "Root Mean Square Error (RMSE)":
                 st.subheader("Root Mean Square Error (RMSE)")
                 st.markdown("<p style='text-align: justify; font-size: 25px;'>RMSE (Root Mean Square Error) adalah rata-rata dari akar kuadrat jumlah kesalahan yang dikuadratkan. Nilai ini sering digunakan untuk mengukur tingkat kesalahan yang dihasilkan oleh suatu model prediksi. Hasil prediksi dianggap baik jika nilai RMSE yang diperoleh semakin kecil.</p>", unsafe_allow_html=True)
                 col1, col2, col3 = st.columns([1, 2, 1])
                 with col2:
-                    st.image("C:/Users/Muhammad Reza/Downloads/Gambar HD/Rumus RMSE.jpg",  width=400)
-                st.image("C:/Users/Muhammad Reza/Downloads/Gambar HD/Ket Rumus RMSE.jpg",  width=600)
+                    st.image("Rumus RMSE.jpg",  width=400)
+                st.image("Ket Rumus RMSE.jpg",  width=600)
 
         elif sub_bab2 == "Denormalisasi Data":
             st.subheader("Denormalisasi Data")
             st.markdown("<p style='text-align: justify; font-size: 25px;'>Denormalisasi adalah proses mengembalikan nilai hasil prediksi ke rentang yang sebenarnya untuk memperoleh nilai yang sebenarnya dan memberikan kinerja model berdasarkan hasil tersebut. Data yang sebelumnya dinormalisasi akan dikonversi kembali ke bentuk aslinya sehingga nilai prediksi atau perkiraan saat ini dapat ditentukan.</p>", unsafe_allow_html=True)
             col1, col2, col3 = st.columns([1, 2, 1])
             with col2:
-                 st.image("C:/Users/Muhammad Reza/Downloads/Gambar HD/Rumus Denormalisasi.jpg",  width=900)
-            st.image("C:/Users/Muhammad Reza/Downloads/Gambar HD/Ket Rumus Denormalisai.jpg",  width=500)
+                 st.image("Rumus Denormalisasi.jpg",  width=900)
+            st.image("Ket Rumus Denormalisai.jpg",  width=500)
         elif sub_bab2 == "Gempa Bumi":
             st.subheader("Gempa Bumi")
             st.markdown("<p style='text-align: justify; font-size: 25px;'>Gempa bumi adalah peristiwa getaran yang terjadi akibat retakan dan pergeseran lempeng bumi yang kuat, sehingga menyebabkan permukaan bumi berguncang hebat. Proses ini menghasilkan pelepasan energi dalam jumlah besar yang merambat ke permukaan dalam bentuk gelombang seismik, sehingga menyebabkan guncangan yang dapat dirasakan di wilayah sekitar episentrum. Besarnya kekuatan gempa bumi ini diukur menggunakan magnitudo, yaitu parameter yang menunjukkan seberapa besar energi yang dilepaskan dari sumber terjadinya gempa. Magnitudo menjadi salah satu indikator penting dalam menentukan potensi dampak dan tingkat kerusakan yang ditimbulkan oleh suatu gempa bumi. Berdasarkan besarnya magnitudo, gempa bumi dapat diklasifikasikan ke dalam beberapa kategori, seperti yang disajikan pada Tabel berikut:</p>", unsafe_allow_html=True)
             col1, col2, col3 = st.columns([1, 2, 1])
             with col2:
-                 st.image("C:/Users/Muhammad Reza/Downloads/Klasifikasi Gempa Bumi.png",  width=900)
+                 st.image("Klasifikasi Gempa Bumi.png",  width=900)
 
 elif selected_main == "Data Source":
     st.title("Sumber Data")
     st.markdown("<p style='text-align: justify; font-size: 25px;'>Jenis data yang digunakan dalam penelitian ini adalah data sekunder. Data ini merupakan data historis magnitudo gempa bumi yang diperbarui datanya pada setiap harinya dan diperoleh dari website https://repogempa.bmkg.go.id. Dalam penelitian ini mangambil data harian magnitudo gempa bumi dalam periode waktu 1 Januari 2020 sampai dengan 30 September 2024 yang diakses pada tanggal 22 Desember 2024. Sehingga total data yang digunakan adalah sebanyak 47.683 ribu data penelitian.</p>", unsafe_allow_html=True)
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
-         st.image("C:/Users/Muhammad Reza/OneDrive/ドキュメント/SKRIPSI REZA/Proposal/Gambar Skripsi/Logo BMKG.png", caption="Sumber Data Gempa Bumi", width=300)
+         st.image("Logo BMKG.png", caption="Sumber Data Gempa Bumi", width=300)
 
     st.markdown("<p style='text-align: justify; font-size: 25px;'>Variabel yang digunakan dalam penelitian ini adalah data magnitudo gempa bumi di Indonesia dari 1 Januari 2020 hingga 30 September 2024 sebanyak 47.683 ribu data.</p>", unsafe_allow_html=True)
 
@@ -748,7 +748,7 @@ elif selected_main == "Modeling":
     st.subheader('Model Summary Arsitektur 1')
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
-          st.image("C:/Users/Muhammad Reza/Downloads/Arsitektur 1 RNN-GRU.png",  width=900)
+          st.image("Arsitektur 1 RNN-GRU.png",  width=900)
 
     # Train model
     history = model.fit(X_train_reshaped, y_train, epochs=50, batch_size=32, validation_split=0.2, verbose=1)
@@ -842,7 +842,7 @@ elif selected_main == "Modeling":
     st.subheader('Model Summary Arsitektur 2')
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
-          st.image("C:/Users/Muhammad Reza/Downloads/Arsitektur 2 RNN-GRU.png",  width=900)
+          st.image("Arsitektur 2 RNN-GRU.png",  width=900)
 
 
     # Train model
@@ -1007,11 +1007,11 @@ elif selected_main == "Kesimpulan":
     st.markdown("<p style='text-align: center; font-size: 25px;'>Arsitektur 1</p>", unsafe_allow_html=True)
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
-          st.image("C:/Users/Muhammad Reza/Downloads/RNN-GRU 1.png",  width=700)
+          st.image("RNN-GRU 1.png",  width=700)
     st.markdown("<p style='text-align: center; font-size: 25px;'>Arsitektur 2</p>", unsafe_allow_html=True)
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
-          st.image("C:/Users/Muhammad Reza/Downloads/RNN-GRU 2.png",  width=700)
+          st.image("RNN-GRU 2.png",  width=700)
 
     st.markdown("<p style='text-align: justify; font-size: 25px;'>2. Model terbaik yang dihasilkan memiliki akurasi dengan nilai MAPE sebesar 18,41% dan RMSE sebesar 0,7346, menunjukkan kinerja yang baik dalam memprediksi magnitudo gempa bumi.</p>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: justify; font-size: 25px;'>3. Berdasarkan hasil prediksi, gempa bumi dalam rentang magnitudo 3,0 hingga 3,8 SR dikategorikan sebagai Gempa Bumi Lemah dengan Status Waspada. Prediksi tersebut menunjukkan tingkat kestabilan yang baik, dengan nilai MAPE sebesar 19,29% dan RMSE sebesar 0,7721. Getaran yang ditimbulkan terasa lemah dan jarang menyebabkan kerusakan yang signifikan, namun tetap perlu diwaspadai sebagai langkah antisipasi.</p>", unsafe_allow_html=True)
