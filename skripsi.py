@@ -291,19 +291,19 @@ elif selected_main == "Introduction":
             st.markdown("<p style='text-align: justify; font-size: 25px;'>a. Pola horizontal merupakan pola yang terjadi ketika data memiliki nilai rata – rata fluktuasi yang sama.</p>", unsafe_allow_html=True)
             col1, col2, col3 = st.columns([1, 2, 1])
             with col2:
-                st.image("C:/Users/Muhammad Reza/Downloads/Pola Horizontal.jpg", caption="Pola Horizontal", width=300)
+                st.image("Pola Horizontal.jpg", caption="Pola Horizontal", width=300)
             st.markdown("<p style='text-align: justify; font-size: 25px;'>b. Pola musiman merupakan pola yang terjadi ketika data memiliki nilai yang terjadi secara berulang pada suatu periodik waktu tertentu.</p>", unsafe_allow_html=True)
             col1, col2, col3 = st.columns([1, 2, 1])
             with col2:
-                st.image("C:/Users/Muhammad Reza/Downloads/Pola Musiman.jpg", caption="Pola Musiman", width=300)
+                st.image("Pola Musiman.jpg", caption="Pola Musiman", width=300)
             st.markdown("<p style='text-align: justify; font-size: 25px;'>c. Pola tren merupakan pola yang terjadi secara kontinu atau bergerak stabil dan terdapat arah perkembangan secara umum (naik atau turun).</p>", unsafe_allow_html=True)
             col1, col2, col3 = st.columns([1, 2, 1])
             with col2:
-                st.image("C:/Users/Muhammad Reza/Downloads/Gambar HD/Pola tren.jpg", caption="Pola Tren", width=300)
+                st.image("Pola tren.jpg", caption="Pola Tren", width=300)
             st.markdown("<p style='text-align: justify; font-size: 25px;'>d. Pola siklis merupakan pola yang terjadi ketika data memiliki nilai yang terjadi secara berulang setelah jangka waktu tertentu, namun tidak secara periodik.</p>", unsafe_allow_html=True)
             col1, col2, col3 = st.columns([1, 2, 1])
             with col2:
-                st.image("C:/Users/Muhammad Reza/Downloads/Gambar HD/Pola Siklis.jpg", caption="Pola Siklis", width=300)
+                st.image("Pola Siklis.jpg", caption="Pola Siklis", width=300)
         elif sub_bab2 == "Peramalan":
             st.subheader("Peramalan")
             st.markdown("<p style='text-align: justify; font-size: 25px;'>Peramalan (forecasting) merupakan teknik analisis yang menggunakan pendekatan kualitatif maupun kuantitatif untuk memprediksi kejadian di masa depan. Proses ini didasarkan pada data historis guna mengurangi dampaknya. Peramalan umumnya terbagi menjadi tiga kategori, yaitu jangka pendek, jangka menengah, dan jangka panjang. Peramalan jangka pendek digunakan untuk memprediksi kejadian dalam periode harian, mingguan, hingga beberapa bulan mendatang. Peramalan jangka menengah melibatkan analisis data untuk memproyeksikan kejadian selama satu hingga dua tahun ke depan. Sementara itu, peramalan jangka panjang digunakan untuk memperkirakan kejadian yang berlangsung lebih dari dua tahun ke depan.</p>", unsafe_allow_html=True)
