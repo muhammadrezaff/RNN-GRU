@@ -90,7 +90,7 @@ st.markdown(
     <div class="header-container">
         <!-- Logo di sebelah kiri -->
         <div class="logo-container">
-            <img src="https://unimus.ac.id/wp-content/uploads/2022/07/Logo-Unimus-Kampus-Merdeka1-768x132.png" class="logo" alt="Logo">
+            <img src="LOGO-UNIMUS-UNGGUL-1.png" class="logo" alt="Logo">
         </div>
         <!-- Teks Seminar Hasil di sebelah kanan -->
         <span class="seminar-text">Sidang Skripsi</span>
