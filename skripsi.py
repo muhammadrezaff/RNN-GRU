@@ -1007,11 +1007,11 @@ elif selected_main == "Kesimpulan":
     st.markdown("<p style='text-align: center; font-size: 25px;'>Arsitektur 1</p>", unsafe_allow_html=True)
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
-          st.image("images/RNN-GRU 1.png",  width=700)
+          st.image('RNN-GRU 1.png',  width=700)
     st.markdown("<p style='text-align: center; font-size: 25px;'>Arsitektur 2</p>", unsafe_allow_html=True)
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
-          st.image("images/RNN-GRU 2.png",  width=700)
+          st.image('RNN-GRU 2.png',  width=700)
 
     st.markdown("<p style='text-align: justify; font-size: 25px;'>2. Model terbaik yang dihasilkan memiliki akurasi dengan nilai MAPE sebesar 18,41% dan RMSE sebesar 0,7346, menunjukkan kinerja yang baik dalam memprediksi magnitudo gempa bumi.</p>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: justify; font-size: 25px;'>3. Berdasarkan hasil prediksi, gempa bumi dalam rentang magnitudo 3,0 hingga 3,8 SR dikategorikan sebagai Gempa Bumi Lemah dengan Status Waspada. Prediksi tersebut menunjukkan tingkat kestabilan yang baik, dengan nilai MAPE sebesar 19,29% dan RMSE sebesar 0,7721. Getaran yang ditimbulkan terasa lemah dan jarang menyebabkan kerusakan yang signifikan, namun tetap perlu diwaspadai sebagai langkah antisipasi.</p>", unsafe_allow_html=True)
