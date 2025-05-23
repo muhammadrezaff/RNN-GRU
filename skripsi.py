@@ -235,7 +235,7 @@ elif selected_main == "Introduction":
             st.markdown("<p style='text-align: justify; font-size: 25px;'>2. Indonesia menempati peringkat tinggi dalam frekuensi gempa bumi secara global, bahkan tercatat sebagai negara dengan jumlah gempa terbanyak pada tahun 2023. Hal ini menunjukkan perlunya penelitian yang lebih mendalam untuk mengantisipasi dan memitigasi risiko gempa.</p>", unsafe_allow_html=True)
             col1, col2, col3 = st.columns([1, 2, 1])
             with col2:
-                st.image("C:/Users/Muhammad Reza/Downloads/Frekuensi_Gempa_Bumi-transformed.png", caption="Diagram jumlah gempa bumi terbanyak di dunia tahun 2023", width=500)
+                st.image("Frekuensi_Gempa_Bumi-transformed.png", caption="Diagram jumlah gempa bumi terbanyak di dunia tahun 2023", width=500)
             st.markdown("<p style='text-align: justify; font-size: 25px;'>3. Penelitian menggunakan metode Recurrent Neural Network Gated Recurrent Unit (RNN-GRU) untuk menganalisis pola data deret waktu dan memprediksi magnitudo gempa bumi. Data magnitudo gempa, yang bersifat sekuensial dan memiliki pola temporal, sangat sesuai untuk diproses menggunakan metode RNN-GRU karena kemampuannya dalam menangkap pola data berurutan dengan akurasi tinggi.</p>", unsafe_allow_html=True)
         elif sub_bab1 == "Penelitian Sebelumnya":
             st.subheader("Penelitian Sebelumnya")
