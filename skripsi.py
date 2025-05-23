@@ -516,7 +516,7 @@ elif selected_main == "Data Source":
 elif selected_main == "Preprocessing":
     st.title("Pembagian Dataset")
 
-    file_path = "C:/Users/Muhammad Reza/OneDrive/ドキュメント/SKRIPSI REZA/Proposal/DATA MAGNITUDO.csv"
+    file_path = "DATA MAGNITUDO.csv"
     data = pd.read_csv(file_path)
 
     # Pastikan data sudah di-load sebelumnya
@@ -705,7 +705,7 @@ elif selected_main == "Modeling":
     st.title("Pembentukan Arsitektur RNN-GRU")
     st.subheader("Pembentukan Arsitektur Pertama")
 
-    file_path = "C:/Users/Muhammad Reza/OneDrive/ドキュメント/SKRIPSI REZA/Proposal/DATA MAGNITUDO.csv"
+    file_path = "DATA MAGNITUDO.csv"
     data = pd.read_csv(file_path) 
 
     train_data, test_data = train_test_split(data, test_size=0.2, random_state=42, shuffle=False)
@@ -797,7 +797,7 @@ elif selected_main == "Modeling":
     
     st.subheader("Pembentukan Arsitektur Kedua")
 
-    file_path = "C:/Users/Muhammad Reza/OneDrive/ドキュメント/SKRIPSI REZA/Proposal/DATA MAGNITUDO.csv"
+    file_path = "DATA MAGNITUDO.csv"
     data = pd.read_csv(file_path) 
 
     train_data, test_data = train_test_split(data, test_size=0.2, random_state=42, shuffle=False)
