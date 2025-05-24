@@ -176,7 +176,7 @@ if selected_main == "Cover":
         <div class="cover-container">
         <!-- Logo di sebelah kiri -->
         <div class="logo-container">
-            <img src= "LOGO-UNIMUS-UNGGUL-1.png" class="logoo" alt="logo.bawah" style="margin-top:100px;">
+            <img src= "Logo Unimus.png" class="logoo" alt="logo.bawah" style="margin-top:100px;">
         </div>
         </style>
         <div class="cover-container">
