@@ -463,7 +463,7 @@ elif selected_main == "Data Source":
     st.markdown("<p style='text-align: justify; font-size: 25px;'>Variabel yang digunakan dalam penelitian ini adalah data magnitudo gempa bumi di Indonesia dari 1 Januari 2020 hingga 30 September 2024 sebanyak 47.683 ribu data.</p>", unsafe_allow_html=True)
 
     # Input file upload
-    file_path = "C:/Users/Muhammad Reza/OneDrive/ドキュメント/SKRIPSI REZA/Proposal/DATA MAGNITUDO.csv"
+    file_path = "DATA MAGNITUDO.csv"
     st.title("Struktur Data")
     if file_path is not None:
         try:
